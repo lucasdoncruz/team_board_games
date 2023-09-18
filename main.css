@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 35px 0;
+    background-color: #001D3D;
+    color: #FFD60A;
+    font-family: 'Rubik Dirt', cursive;
+}
+
+header h1, 
+header nav li,
+section h2 {
+    font-weight: normal;
+}
+
+section {
+    color: #001D3D;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url("/images/Fundo-Board-Games.png");
+    background-repeat: repeat;
+}
+
+body p {
+    font-size: 15px;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a {
+    color: #f5f8f8;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+section h2,
+section h3,
+form button {
+    font-family: 'Rubik Dirt', cursive;
+    margin-bottom: 30px;
+    font-weight: normal;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#zombicide,
+#dixit,
+#lendas {
+    padding: 30px 30px 0 0;
+}
+
+#dixit {
+    padding-left: 30px;
+}
+
+.social-links img {
+    height: 24px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+#contact .container {
+    display: block;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+
+}
+
+section h3 {
+    margin-bottom: 16px;
+}
+
+form button {
+    background-color: #001D3D;
+    color: #f5f8f8;
+    border: none;
+    height: 40px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0d3c6e;
+}
+
+input,
+textarea {
+    font-family: 'Roboto', sans-serif;
+}
+
+input:focus,
+textarea:focus {
+    outline-color: #001D3D;
+}
+
+footer {
+    background-color: #001D3D;
+    color: #f5f8f8;
+    padding: 16px 0;
+}
